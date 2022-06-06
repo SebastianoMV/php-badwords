@@ -45,23 +45,26 @@ $lunghezza= strlen($divinaCommediaCensored);
   <title>Live 1 php</title>
 </head>
 <body>
+  <p>divina commedia</p>
+  <h1>
+    <?php
+    echo $divinaCommedia
+    ?>
+  </h1>
+  <h2>
+    Il testo è lungo <?php echo $lunghezza ?> caratteri
+  </h2>
+  
+  <p>divina commedia censurata</p>
   <h1> 
     <?php
     echo $divinaCommediaCensored
     ?>
   </h1>
   <h2>
-    Il testo è lungo
-    <?php
-    echo $lunghezza
-    ?>
-    caratteri
+    Il testo è lungo <?php echo $lunghezza ?> caratteri
   </h2>
-  <p>Parola in codice per la censura 'badWord'</p>
+  
+  
 </body>
-<style>
-  p{
-    margin-top: 65vh;
-  }
-</style>
 </html>
